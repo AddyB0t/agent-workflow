@@ -1,0 +1,24 @@
+{
+  "llm_model": "openai/gpt-4.1-mini",
+  "tasks": 20,
+  "success": 19,
+  "success_rate": 0.95,
+  "status_counts": {
+    "failed": 1,
+    "passed": 19
+  },
+  "avg_steps": 8.6,
+  "avg_cost_usd": 0.00396,
+  "total_cost_usd": 0.0793,
+  "avg_seconds": 28.7,
+  "approvals_requested": 19,
+  "guardrail_stops": 0,
+  "guardrails": {
+    "max_steps": 25,
+    "max_cost_usd": 0.1,
+    "max_tokens": 200000,
+    "sandbox_timeout_s": 60,
+    "max_fix_attempts": 3,
+    "loop_repeat_limit": 3
+  }
+}
